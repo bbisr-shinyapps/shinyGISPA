@@ -26,7 +26,7 @@ shinyGISPA is a web-based tool intended for the researchers who are interested i
 
 Availability
 ~~~~~~~~~~~~
-GISPA Bioconductor R package is available at https://www.bioconductor.org/packages/release/bioc/html/GISPA.html and shinyGISPA is available from the GitHub, https://github.com/BhaktiDwivedi/shinyGISPA.
+GISPA Bioconductor R package is available at https://www.bioconductor.org/packages/release/bioc/html/GISPA.html. shinyGISPA is available from the GitHub, https://github.com/BhaktiDwivedi/shinyGISPA. shinyGISPA web-based version is available at http://shinygispa.winship.emory.edu/shinyGISPA/.
 
 
 Current Version
@@ -49,13 +49,8 @@ Prerequisities
 1) Download and install R or RStudio (version 3.3. or later) from https://cran.r-project.organd
 2) Open R and install the required R packages:
 
-	install.packages( c("changepoint", “colourpicker”, "data.table”, “genefilter”, “ggplot2”, “graphics”,  “HH", “knitr”, ”latticeExtra", “plyr”, ”scatterplot3d", “stats”, “splitstackshape”, “openxlsx”) )  
+	install.packages( c("changepoint", “colourpicker”, "data.table”, “genefilter”, “ggplot2”, “graphics”,  “HH", “knitr”, “lattice”, ”latticeExtra", “plyr”, ”scatterplot3d", “stats”, “splitstackshape”, “Biobase”, “GSEABase”. “shiny”) )  
   
-3) Install the Bioconductor R packages required by shinyGISPA
-
-	source("http://bioconductor.org/biocLite.R")
-	biocLite(package.name)
-
 
 Running shinyGISPA
 ~~~~~~~~~~~~~~~~~~
